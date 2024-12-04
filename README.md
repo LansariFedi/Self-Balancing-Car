@@ -1,6 +1,6 @@
 # Self-Balancing Car Project
 
-![Self-Balancing Car](Balancing.gif)
+![Self-Balancing Car](Balance.gif)
 
 ## Overview
 
