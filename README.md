@@ -39,7 +39,7 @@ This project aims to develop a self-balancing two-wheeled car using Unity ML-Age
    - Ensure you have Python 3.6 or later installed.
    - Install the required Python libraries using `requirements.txt`:
      ```bash
-     pip install -r [requirements.txt](http://_vscodecontentref_/0)
+     pip install -r requirements.txt
      ```
 
 ### Training the Agent
@@ -53,7 +53,7 @@ This project aims to develop a self-balancing two-wheeled car using Unity ML-Age
    - Open a terminal and navigate to the project directory.
    - Run the following command to start training:
      ```bash
-     mlagents-learn config/trainer_config.yaml --run-id=balancing_car
+     mlagents-learn config/BalanceTask.yaml --run-id=balancing_car
      ```
    - Press the `Play` button in the Unity Editor to start the simulation.
 
@@ -75,7 +75,6 @@ This project aims to develop a self-balancing two-wheeled car using Unity ML-Age
 - **Assets/**: Contains all Unity assets, including scripts, prefabs, and scenes.
   - `BalancingAgent.cs`: Defines the agent's behavior and reward system.
   - `CarControl.cs`: Controls the car's movement.
-  - `Moving_Wheels.cs`: Updates the wheel positions.
 - **config/**: Contains configuration files for training the agent.
 
 ## Key Components
