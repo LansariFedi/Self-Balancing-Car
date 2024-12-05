@@ -1,6 +1,6 @@
 # Self-Balancing Car Project
 
-![Self-Balancing Car](Balance.gif)
+![Self-Balancing Car](BalancingExample.mp4)
 
 ## Overview
 
@@ -22,17 +22,14 @@ This project aims to develop a self-balancing two-wheeled car using Unity ML-Age
 
 ### Installation
 
-1. **Clone the Repository**:
+1. **Download the Full Project**:
 
-   ```bash
-   git clone https://github.com/yourusername/self-balancing-car.git
-   cd self-balancing-car
-   ```
+   - The full project is available on Google Drive. Download it from [this link](https://drive.google.com/drive/folders/1ItKGldWN7jXhJL62P2PO1FIrDldx5mRs?usp=sharing).
 
 2. **Open the Project in Unity**:
 
    - Open Unity Hub.
-   - Click on `Add` and select the cloned project folder.
+   - Click on `Add` and select the downloaded project folder.
 
 3. **Install ML-Agents**:
 
@@ -42,7 +39,7 @@ This project aims to develop a self-balancing two-wheeled car using Unity ML-Age
    - Ensure you have Python 3.6 or later installed.
    - Install the required Python libraries using `requirements.txt`:
      ```bash
-     pip install -r requirements.txt
+     pip install -r [requirements.txt](http://_vscodecontentref_/0)
      ```
 
 ### Training the Agent
@@ -76,8 +73,9 @@ This project aims to develop a self-balancing two-wheeled car using Unity ML-Age
 ## Project Structure
 
 - **Assets/**: Contains all Unity assets, including scripts, prefabs, and scenes.
-- **Scripts/**: Contains C# scripts for the project.
   - `BalancingAgent.cs`: Defines the agent's behavior and reward system.
+  - `CarControl.cs`: Controls the car's movement.
+  - `Moving_Wheels.cs`: Updates the wheel positions.
 - **config/**: Contains configuration files for training the agent.
 
 ## Key Components
