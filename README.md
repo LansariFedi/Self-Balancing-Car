@@ -1,6 +1,6 @@
 # Self-Balancing Car Project
 
-![Self-Balancing Car](BalancingExample.mp4)
+![Self-Balancing Car](BalancingExample.gif)
 
 ## Overview
 
