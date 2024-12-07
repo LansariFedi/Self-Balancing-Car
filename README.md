@@ -31,11 +31,19 @@ This project aims to develop a self-balancing two-wheeled car using Unity ML-Age
    - Open Unity Hub.
    - Click on `Add` and select the downloaded project folder.
 
-3. **Install ML-Agents**:
+3. **Activate Virtual Environment**:
+
+   - The project includes a virtual environment named `myenv` with all necessary dependencies installed.
+   - Activate the virtual environment:
+     ```bash
+     source myenv/bin/activate  # On Windows use `myenv\Scripts\activate`
+     ```
+
+4. **Install ML-Agents**:
 
    - Follow the [ML-Agents installation guide](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md).
 
-4. **Install Python Dependencies**:
+5. **Install Python Dependencies** (if not using the virtual environment):
    - Ensure you have Python 3.6 or later installed.
    - Install the required Python libraries using `requirements.txt`:
      ```bash
@@ -70,12 +78,18 @@ This project aims to develop a self-balancing two-wheeled car using Unity ML-Age
 3. **Run the Simulation**:
    - Press the `Play` button in the Unity Editor to see the self-balancing car in action.
 
+### Testing the Pre-trained Model
+
+If you just want to test the model, you can download the folder `RLCarBuild` which contains the build of the Unity project with the pre-trained model. Simply run the executable to see the self-balancing car in action.
+
 ## Project Structure
 
 - **Assets/**: Contains all Unity assets, including scripts, prefabs, and scenes.
   - `BalancingAgent.cs`: Defines the agent's behavior and reward system.
   - `CarControl.cs`: Controls the car's movement.
 - **config/**: Contains configuration files for training the agent.
+- **myenv/**: Virtual environment with all dependencies installed.
+- **RLCarBuild/**: Build of the Unity project with the pre-trained model.
 
 ## Key Components
 
